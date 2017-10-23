@@ -392,7 +392,9 @@
 (* ::Input:: *)
 (*probSimuMM2=ProbabilidadSimulada[usuariosMM2];*)
 (*ListaProbSimuMM2=CrearLista[probSimuMM2];*)
-(*ListPlot[{ListaProbSimuMM2,ListaProbSimu},PlotLegends->{"M/M/2","M/M/1"}]*)
+(*a=ListLinePlot[{ListaProbSimuMM2,ListaProbSimu},PlotLegends->{"M/M/2","M/M/1"},PlotRange->{{0,25},{0,0.5}}];*)
+(*b=ListPlot[{ListaProbSimuMM2,ListaProbSimu},PlotRange->{{0,25},{0,0.5}}];*)
+(*Show[a,b]*)
 
 
 (* ::Text:: *)
